@@ -1,13 +1,8 @@
 {
-  "build": {
-    "env": {
-      "REACT_APP_BUILD_PATH": "public"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/public/$1"
+      "destination": "/public/index.html"
     }
   ]
 }
